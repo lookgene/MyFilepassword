@@ -1,0 +1,95 @@
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 日志文件
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# IDE相关文件
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 前端相关文件
+# 依赖目录
+node_modules/
+
+# Nuxt.js构建文件
+.nuxt/
+.output/
+dist/
+
+# 包管理器锁文件
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# 环境变量文件
+.env
+.env.*
+!.env.example
+
+# 缓存文件
+.cache/
+.parcel-cache/
+.eslintcache
+
+# 后端相关文件
+# Python依赖和虚拟环境
+env/
+venv/
+.venv/
+pythonvenv/
+
+# Python编译文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C扩展
+*.so
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+
+# 测试覆盖率
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+
+# 构建输出
+build/
+builds/
+
+# 临时文件
+*.tmp
+*.temp
+
+# 其他
+*.bak
+*.swp
+*.swo
+*~
+
+# AI助手相关目录
+.claude/
+.trae/
+
+# 项目特定的日志和数据文件
+*.log
+logs/
+data/
